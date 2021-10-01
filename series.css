@@ -1,0 +1,70 @@
+body{
+    background-color: darkgrey;
+}
+
+.heading{
+    color: #000000;
+    font-size: 6rem;
+    font-family: 'Ephesis', cursive;
+    margin-left: 25rem;
+}
+.pics{
+    width: 100%;
+    height: auto;
+}
+#image1{
+    background-image: url(https://i.guim.co.uk/img/media/b4671b518cf9f81e4343c5921a6210141fd9f8fa/0_92_4284_2570/master/4284.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=75205a6a967abc32d73fc80b7b23b52a);
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin:1px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#image1 :hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#image2{
+    background-image: url(https://i.guim.co.uk/img/media/64c687b75da57f3e82d9fcfd019a4103ce81db15/0_143_4284_2570/master/4284.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=875a687b2bdcabefe197ed97dd54a624);
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin:1px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#image3{
+    background-image: url(https://wttspod.com/wp-content/uploads/2021/07/1510229903-14465362-low-res-peaky-blinders-iv.jpeg);
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin:1px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#image4{
+    background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/04/08/08/peakyblinders.jpg?width=982&height=726&auto=webp&quality=75);
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin:1px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#image2 :hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+#image3 :hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+#image4 :hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
